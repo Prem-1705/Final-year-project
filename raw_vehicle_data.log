@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Tue May 27 18:38:49 2025
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   raw_vehicle_data.ctl
+Data File:      raw_vehicle_data.csv
+  Bad File:     raw_vehicle_data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table RAW_VEHICLE_DATA, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ENTRY_ID                            FIRST     *   ,  O(") CHARACTER            
+TIMESTAMP_MS                         NEXT     *   ,  O(") CHARACTER            
+SPEED_PWM                            NEXT     *   ,  O(") CHARACTER            
+SPEED_LIMITED                        NEXT     *   ,  O(") CHARACTER            
+BYPASS_ACTIVE                        NEXT     *   ,  O(") CHARACTER            
+EVENT_TYPE                           NEXT    30   ,  O(") CHARACTER            
+DESCRIPTION                          NEXT   100   ,  O(") CHARACTER            
+
+
+Table RAW_VEHICLE_DATA:
+  5 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  91136 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             5
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue May 27 18:38:49 2025
+Run ended on Tue May 27 18:38:50 2025
+
+Elapsed time was:     00:00:00.12
+CPU time was:         00:00:00.02
