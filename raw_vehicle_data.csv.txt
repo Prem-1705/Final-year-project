@@ -1,5 +1,0 @@
-1,0,0,N,N,,
-2,1500,,,,"BypassEnabled","Bypass button pressed"
-3,3000,51,Y,N,,
-4,4500,,,,"SpeedLimitActive","RF signal received - limiting speed"
-5,5000,51,Y,N,,
